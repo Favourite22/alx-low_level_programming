@@ -8,16 +8,16 @@
 
 int main(void)
 {
-int l= 'a';
-int m= 'A';
-while (l <= 'z')
+int lw= 'a';
+int up= 'A';
+while (lw <= 'z')
 }
-putchar(l);
+putchar(lw);
 l +=1;
 }
-while (m <= 'Z')
+while (up <= 'Z')
 {
-putchar(m);
-m +=1;
+putchar(up);
+up +=1;
 putchar ('\n');
 return (0);
