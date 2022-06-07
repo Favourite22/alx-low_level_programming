@@ -13,11 +13,12 @@ int up= 'A';
 while (lw <= 'z')
 }
 putchar(lw);
-l +=1;
+lw += 1;
 }
 while (up <= 'Z')
 {
 putchar(up);
-up +=1;
-putchar ('\n');
+up += 1;
+putchar('\n');
 return (0);
+}
